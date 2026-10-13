@@ -1,0 +1,14 @@
+
+package dao;
+
+/**
+ * Implémentation concrète de l'interface IDao.
+ */
+public class DaoImpl implements IDao {
+
+    @Override
+    public double getValue() {
+        System.out.println("[DAO] Récupération de la valeur depuis la source de données...");
+        return 100.0;
+    }
+}
